@@ -1,0 +1,7 @@
+Cenário de teste
+
+1.Dado esse cenário, como você iniciaria uma estratégia de teste?
+2. Quais abordagens de teste você consideraria?
+3.Como você trabalharia com diferentes tipos/níveis de teste?
+4. Quais ferramentas você consideraria usar?
+5.Como você se imagina atuando nessa equipe
