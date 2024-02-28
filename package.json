@@ -1,8 +1,5 @@
 {
   "scripts": {
-    "precompress": "{{ executes BEFORE the `compress` script }}",
-    "compress": "{{ run command to compress files }}",
-    "postcompress": "{{ executes AFTER `compress` script }}",
     "cypress:open": "cypress open --config-file cypress.configDesafio.js",
     "cypress:run": "cypress run --config-file cypress.configDesafio.js",
     "cypress:api:open": "cypress open --config-file cypress.configDesafioAPI.js",
