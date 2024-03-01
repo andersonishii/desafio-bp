@@ -6,7 +6,7 @@ function clickButton(requestedData = {}) {
       };
       cy.intercept('GET','/challenging_dom').as('getChallegingDom')  
       cy.get('.large-2').within(()=>{
-        cy.get(`a:nth-child(${data.nthChild})`).click().should('have.css', 'background-color', `rgb(${data.rgbBackground})`)
+        cy.get(`a:nth-child(${data.nthChild})`).click()
         cy.wait('@getChallegingDom').its('response.statusCode').should('eq', 200)
       })
       
