@@ -11,4 +11,6 @@ c) na raiz "npm run cypress:run" (para rodar no console)
 2) Teste de API
 a) na raiz instale as dependencias ( npm install)
 b) na raiz "npm run cypress:api:open"  (para rodar no modo visual)
-c) na raiz "npm run cypress:api:run"  (para rodar no console)  : 
+c) na raiz "npm run cypress:api:run"  (para rodar no console)  :
+
+Referente a estrategia de teste, por favor veja o arquivo "cenario_de_teste.txt" contido na raiz 
